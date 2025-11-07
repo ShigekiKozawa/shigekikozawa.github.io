@@ -40,7 +40,7 @@ const PersonalDev = () => {
             <div key={project.id} className="bg-white rounded-2xl shadow-lg border border-slate-100 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl overflow-hidden">
               
               {/* サムネイル画像 */}
-              <div className="relative h-48 md:h-64 overflow-hidden">
+              <div className="relative h-70 md:h-86 overflow-hidden">
                 <img
                   src={project.thumbnail}
                   alt={project.title}
